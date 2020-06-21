@@ -1,0 +1,75 @@
+body{
+      font-family: 'Copse', serif;
+      margin-top: 50px;
+  }
+  h2{
+        font-size: 40px;
+        font-weight: bold;
+        color: #030b74;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        margin-left: 35%;
+  }
+.card{
+      background: linear-gradient(to right, #240b36, #c31432);
+      color: rgb(255, 255, 255);
+      font-size: 20px;
+      text-align: center;
+      padding: 10px;
+}
+#back{
+      background: linear-gradient(to right, #240b36, #c31432);
+      color: rgb(255, 255, 255);
+}
+/**************Tab View******************/
+@media(max-width:1023px){
+      body{
+            font-family: 'Copse', serif;
+            margin-top: 50px;
+        }
+        h2{
+              font-size: 30px;
+              font-weight: bold;
+              color: #030b74;
+              padding-top: 15px;
+              padding-bottom: 20px;
+              margin-left: 25%;
+        }
+      .card{
+            background: linear-gradient(to right, #240b36, #c31432);
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            text-align: center;
+            padding: 10px;
+      }
+      #back{
+            background: linear-gradient(to right, #240b36, #c31432);
+            color: rgb(255, 255, 255);
+      }
+}
+/*****************Mobile View***************/
+@media(max-width:767px){
+      body{
+            font-family: 'Copse', serif;
+            margin-top: 50px;
+        }
+        h2{
+              font-size: 20px;
+              font-weight: bold;
+              color: #030b74;
+              padding-top: 15px;
+              padding-bottom: 20px;
+              margin-left: 15%;
+        }
+      .card{
+            background: linear-gradient(to right, #240b36, #c31432);
+            color: rgb(255, 255, 255);
+            font-size: 15px;
+            text-align: center;
+            padding: 10px;
+      }
+      #back{
+            background: linear-gradient(to right, #240b36, #c31432);
+            color: rgb(255, 255, 255);
+      }
+}

@@ -1,0 +1,79 @@
+body{
+    font-family: 'Copse', serif;
+    margin-top: 50px;
+}
+h2{
+      font-size: 40px;
+      font-weight: bold;
+      color: #030b74;
+      padding-top: 15px;
+      padding-bottom: 20px;
+      margin-left: 30%;
+}
+.card{
+    background:  linear-gradient(-90deg, rgb(48, 170, 32), yellow);
+    color: #030b74;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+#back{
+    background:  linear-gradient(-90deg, rgb(56, 182, 39), yellow);
+    color: #030b74;
+}
+
+
+/*******************Tab View***********************/
+@media(max-width:1023px){
+    body{
+        font-family: 'Copse', serif;
+        margin-top: 50px;
+    }
+    h2{
+          font-size: 30px;
+          font-weight: bold;
+          color: #030b74;
+          padding-top: 15px;
+          padding-bottom: 20px;
+          margin-left: 25%;
+    }
+    .card{
+        background:  linear-gradient(-90deg, rgb(48, 170, 32), yellow);
+        color: #030b74;
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+    }
+    #back{
+        background:  linear-gradient(-90deg, rgb(56, 182, 39), yellow);
+        color: #030b74;
+    }
+    
+}
+/***********Mobile View************************/
+@media(max-width:767px){
+    body{
+        font-family: 'Copse', serif;
+        margin-top: 50px;
+    }
+    h2{
+          font-size: 20px;
+          font-weight: bold;
+          color: #030b74;
+          padding-top: 15px;
+          padding-bottom: 20px;
+          margin-left: 15%;
+    }
+    .card{
+        background:  linear-gradient(-90deg, rgb(48, 170, 32), yellow);
+        color: #030b74;
+        font-size: 15px;
+        text-align: center;
+        padding: 10px;
+    }
+    #back{
+        background:  linear-gradient(-90deg, rgb(56, 182, 39), yellow);
+        color: #030b74;
+    }
+    
+}
